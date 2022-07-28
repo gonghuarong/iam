@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: iam_admin
+  cloud:
+    nacos:
+      config:
+        server-addr: 124.71.214.242:8848
+        namespace: 2ef5430a-4264-4d8b-a6eb-a8619e951e09
+        group: DEFAULT_GROUP
+        file-extension: properties
+        prefix: iam_admin
+        refresh-enabled: true
+      discovery:
+        server-addr: 124.71.214.242:8848
+        namespace: 2ef5430a-4264-4d8b-a6eb-a8619e951e09
+        group: DEFAULT_GROUP
+  profiles:
+    active: dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+logging:
+  config: classpath:log4j2.xml
