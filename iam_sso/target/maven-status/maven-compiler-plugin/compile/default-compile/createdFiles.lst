@@ -1,7 +1,0 @@
-com\sso\service\UserService.class
-com\sso\controller\UserController.class
-com\sso\SsoApplication.class
-com\sso\entity\User.class
-com\sso\service\impl\UserServiceImpl.class
-com\sso\dto\UserDto.class
-com\sso\dao\UserMapper.class

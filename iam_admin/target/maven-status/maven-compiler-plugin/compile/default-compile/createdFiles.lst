@@ -1,7 +1,0 @@
-com\admin\dao\UserMapper.class
-com\admin\entity\User.class
-com\admin\controller\UserController.class
-com\admin\service\impl\UserServiceImpl.class
-com\admin\service\UserService.class
-com\admin\dto\UserDto.class
-com\admin\AdminApplication.class
